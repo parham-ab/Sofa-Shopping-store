@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link styles -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-rtl.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="icon" href="css/img/logo/logo.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <!-- link styles -->
+  <!-- link script -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- link script -->
+  <title>Shaparak</title>
+</head>
+
+<body>
+  <!-- preLoader -->
+  <div id="pre-loader"></div>
+  <!-- header -->
+  <nav class="navbar-nav shadow-sm bg-light navbar-light sticky-top">
+    <div class="container-fluid">
+      <div class="row">
+        <a href="http://127.0.0.1:5500/index.html" class="navbar-brand">
+          <img src="css/img/logo/logo.svg" width="90px" alt="logo">
+        </a>
+
+        <div class="input-group mr-3 mt-3 col-md-5 col-6">
+          <input type="text" class="form-control input-group-custom " placeholder="جستجو در شاپرک ...">
+        </div>
+
+        <div class="dropdown dropdown-register-custom mr-auto pl-2">
+          <a class="dropdown-toggle dropdown-toggle-custom" id="dropdownMenuButton2" data-toggle="dropdown">
+            ورود / ثبت نام
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-right register-dropdown-custom">
+            <li><a class="dropdown-item " href="#"><i class="material-icons ml-2">account_circle</i>ورود </a></li>
+            <li><a class="dropdown-item" href="#"><i class="material-icons ml-2">login</i>ثبت نام</a></li>
+            <li><a class="dropdown-item" href="#"><i class="material-icons ml-2">shopping_basket</i>سبد خرید</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#"><i class="material-icons ml-2 text-danger">logout</i>خروج</a></li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <!-- menu -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light text-right">
+    <div class="container-fluid">
+      <button class="navbar-toggler text-right hamburger-btn " data-toggle="collapse"
+        data-target="#navbarSupportedContent">
+        <span class="material-icons text-right hamburger">menu</span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-right">
+          <li class="nav-item pr-5">
+            <a class="nav-link active hovereffect-custom" aria-current="page"
+              href="http://127.0.0.1:5500/index.html">صفحه اصلی</a>
+          </li>
+          <li class="nav-item dropdown pr-5 hovereffect-custom">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-expanded="false">
+              محصولات
+            </a>
+            <ul class="dropdown-menu text-right product-dropdown-custom">
+              <li><a class="dropdown-item" href="#">مبلمان</a></li>
+              <li><a class="dropdown-item" href="#">تخت خواب</a></li>
+              <li><a class="dropdown-item" href="#">ست اداری</a></li>
+              <li><a class="dropdown-item" href="#">ست بچه گانه</a></li>
+              <li><a class="dropdown-item" href="#">ست مخصوص هتل</a></li>
+              <li><a class="dropdown-item" href="#">ست کلاسیک</a></li>
+              <li><a class="dropdown-item" href="#">انواع تشک</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">مشاهده همه</a></li>
+            </ul>
+          </li>
+          <li class="nav-item pr-5 hovereffect-custom">
+            <a class="nav-link disabled" href="#">مشاوره</a>
+          </li>
+          <li class="nav-item pr-5 ">
+            <a class="nav-link disabled hovereffect-custom" href="#">تماس با ما</a>
+          </li>
+          <li class="nav-item pr-5 ">
+            <a class="nav-link disabled hovereffect-custom" href="#">درباره ما</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <!-- slider -->
+  <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="10000">
+        <img src="css/img/slider/slider-1.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="css/img/slider/slider-2.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="css/img/slider/slider-3.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="css/img/slider/slider-4.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="css/img/slider/slider-5.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="css/img/slider/slider-6.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <a class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- popular -->
+  <div class="container-fluid mt-5">
+    <div class="row popular-custom">
+      <div class="col-md-3 col-12">
+        <img src="css/img/popular/popular-2.jpg" class="img-fluid w-100 mt-5 popimg" loading="lazy" alt="">
+        <h5 class="text-center my-element pt-4 poph4">انواع ست اداری</h5>
+      </div>
+      <div class="col-md-3 col-12">
+        <img src="css/img/popular/popular.jpg" class="img-fluid w-100 mt-5 popimg" loading="lazy" alt="">
+        <h5 class="text-center my-element pt-4 poph4"> ست مخصوص هتل</h5>
+      </div>
+      <div class="col-md-3 col-12">
+        <img src="css/img/popular/popular-3.jpg" class="img-fluid w-100 mt-5 popimg" loading="lazy" alt="">
+        <h5 class="text-center my-element pt-4 poph4">مبلمان راحتی</h5>
+      </div>
+    </div>
+  </div>
+  <!-- smart-carousel-1 -->
+  <br><br><br><br>
+  <div class="container-fluid shadow mt-3">
+    <div class="row">
+      <div class="col-md-12">
+        <section class="slider box_shadow">
+          <div class="card panel-title-custom">
+            <div class="card-header card-header-custom">
+              <p>کالای برگزیده</p>
+            </div>
+            <div class="card-body">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <a href="#">
+                    <div class="card panel-custom">
+                      <div class="card-body panel-body-custom">
+                        <img src="css/img/plugin/florans3-900x500.jpg" alt="">
+                        <span class="btn btn-success btn-sm btn-off-custom">
+                          25 % تخفیف
+                        </span>
+                      </div>
+                      <div class="card-footer panel-footer-custom">
+                        <h4>
+                          مبلمان راحتی جنوا
+                        </h4>
+                        <p>
+                          37,500,000 تومان
+                        </p>
+                        <button class="btn btn-danger">
+                          مشاهده
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="hero.html">
+                    <div class="card panel-custom">
+                      <div class="card-body panel-body-custom">
+                        <img src="css/img/plugin/Untitled-13-900x500.jpg" alt="hero">
+                      </div>
+                      <div class="card-footer panel-footer-custom">
+                        <h4>
+                          مبل مجلسی هیرو
+                        </h4>
+                        <p>
+                          31,000,000 تومان
+                        </p>
+                        <button class="btn btn-danger">
+                          مشاهده
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#">
+                    <div class="card panel-custom">
+                      <div class="card-body panel-body-custom">
+                        <img src="css/img/plugin/Untitled-15-900x500.jpg" alt="">
+                      </div>
+                      <div class="card-footer panel-footer-custom">
+                        <h4>
+                          ست کامل مبلهای ایتالیایی
+                        </h4>
+                        <p>
+                          70,000,000 تومان
+                        </p>
+                        <button class="btn btn-danger">
+                          مشاهده
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#">
+                    <div class="card panel-custom">
+                      <div class="card-body panel-body-custom">
+                        <img src="css/img/plugin/Untitled-25-0-900x500.jpg" alt="">
+                        <span class="btn btn-success btn-sm btn-off-custom">
+                          15 % تخفیف
+                        </span>
+                      </div>
+                      <div class="card-footer panel-footer-custom">
+                        <h4>
+                          انواع مبل سلطنتی
+                        </h4>
+                        <p>
+                          14,450,000 تومان
+                        </p>
+                        <button class="btn btn-danger">
+                          مشاهده
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#">
+                    <div class="card panel-custom">
+                      <div class="card-body panel-body-custom">
+                        <img src="css/img/plugin/Untitled-4-900x500.jpg" alt="">
+                      </div>
+                      <div class="card-footer panel-footer-custom">
+                        <h4>
+                          مخصوص هتل
+                        </h4>
+                        <p>
+                          10,000,000 تومان
+                        </p>
+                        <button class="btn btn-danger">
+                          مشاهده
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#">
+                    <div class="card panel-custom">
+                      <div class="card-body panel-body-custom">
+                        <img src="css/img/plugin/Untitled-61-900x500.jpg" alt="">
+                      </div>
+                      <div class="card-footer panel-footer-custom">
+                        <h4>
+                          مخصوص اتاق کودک
+                        </h4>
+                        <p>
+                          8,000,000 تومان
+                        </p>
+                        <button class="btn btn-danger">
+                          مشاهده
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#">
+                    <div class="card panel-custom">
+                      <div class="card-body panel-body-custom">
+                        <img src="css/img/plugin/Untitled-84-900x500.jpg" alt="">
+                      </div>
+                      <div class="card-footer panel-footer-custom">
+                        <h4>
+                          مبل کلاسیک شوهارت
+                        </h4>
+                        <p>
+                          16,000,000 تومان
+                        </p>
+                        <button class="btn btn-danger">
+                          مشاهده
+                        </button>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- products -->
+  <br><br><br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/1.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">سرویس خواب نوزاد نوجوان آویسا</h4>
+            <p class="text-danger">50,000,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/2.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">میز تلویزیون فیلون</h4>
+            <p class="text-danger">1,500,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/3.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">سرویس خواب دو نفره ناتالی</h4>
+            <p class="text-danger">6,780,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/4.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل راحتی مکانیزم هانیتا</h4>
+            <p class="text-danger">9,200,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/5.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <span class="btn btn-success btn-sm btn-off-custom">
+            15 % تخفیف
+          </span>
+          <div class="card-body">
+            <h4 class="card-title">تخت خواب دو نفره سروینا</h4>
+            <p class="text-danger">3,650,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/6.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">میز ناهار خوری لژیون</h4>
+            <p class="text-danger">8,900,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/7.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">تخت خواب دو نفره یاشیل</h4>
+            <p class="text-danger">20,100,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/10.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل سلطنتی اهورا</h4>
+            <p class="text-danger">15,490,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/9.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">میز ناهار خوری کریستوفر</h4>
+            <p class="text-danger">11,000,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/11.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل کلاسیک هایلین</h4>
+            <p class="text-danger">14,310,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/12.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <span class="btn btn-success btn-sm btn-off-custom">
+            30 % تخفیف
+          </span>
+          <div class="card-body">
+            <h4 class="card-title">میز کنسول اریکا</h4>
+            <p class="text-danger">16,000,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/13.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل چستر مکانیزم توماس</h4>
+            <p class="text-danger">18,725,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/14.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">تخت خواب یک نفره ماهور</h4>
+            <p class="text-danger">2,999,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/15.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل چستر ویداس</h4>
+            <p class="text-danger">7,000,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/16.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل چستر رولیشا</h4>
+            <p class="text-danger">11,010,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/17.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل چستر مکانیزم سرنا</h4>
+            <p class="text-danger">25,080,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/18.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <div class="card-body">
+            <h4 class="card-title">مبل راحتی چستر کویین</h4>
+            <p class="text-danger">31,000,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card mt-5 shadow product-main-custom">
+          <img src="css/img/product/19.jpg" loading="lazy" class="card-img-top img-fluid w-100">
+          <span class="btn btn-success btn-sm btn-off-custom">
+            19 % تخفیف
+          </span>
+          <div class="card-body">
+            <h4 class="card-title">مبل چستر ترک پولاریس</h4>
+            <p class="text-danger">12,000,000 تومان</p>
+            <a href="#" class="btn btn-success btn-sm">مشاهده و خرید</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- icons category -->
+  <br><br><br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col">
+        <div class="card">
+          <div class="card-body icons-header-custom text-center">
+            <h4 class="card-title text-center mt-4">
+              مشاهده و خرید با دسته بندی
+            </h4>
+            <div class="row icons-custom">
+              <div class="column mt-5 ">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/bed.svg" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    تخت خواب
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/chair.svg" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    صندلی
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/couch.svg" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    مبل راحتی
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/table.svg" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    میز جلو مبلی
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/wardrobe.svg" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    کمد لباس
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/lamp.svg" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    نور و روشنایی
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/nightstand.svg" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    دراور
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/sofa.png" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    میل سلطنتی
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/desk.png" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    میز کار
+                  </p>
+                </a>
+              </div>
+              <div class="column mt-5 pr-5">
+                <a href="#" class="text-dark">
+                  <img src="css/img/icon/kitchen.png" class="img-fluid" width="100" alt="">
+                  <p class="card-text text-center mt-4">
+                    خانه و آشپزخانه
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <br><br><br><br><br><br>
+  <div class="container-fluid bg-light shadow-lg">
+    <div class="row">
+      <section class="p-5">
+        <div class="col-md-12 bg-light contact-info-custom">
+          <h4 class="text-right mb-4">
+            اطلاعات تماس :
+          </h4>
+          <ul class=" text-dark">
+            <li class="mt-3">
+              <span class="font-weight-bold">نشانی :</span>تهران، جاجرود، بازار مبل کمرد، بعد از دنیای فرش، جنب کوچه
+              سنبل، پلاک 647
+            </li>
+            <li class="mt-3">
+              <span class="font-weight-bold">تلفن :</span><a href="tel:021-888888" class="text-success">555-555-555</a>
+            </li>
+            <li class="mt-3">
+              <span class="font-weight-bold">ایمیل :</span><a class="text-dark"
+                href="mailto:Enrollment@mail.com">Enrollment@mail.com</a>
+            </li>
+            <li class="mt-3">
+              <span class="font-weight-bold">ایمیل پشتیبانی :</span><a class="text-dark"
+                href="mailto:Enrollment@mail.com">Enrollment@mail.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="col-lg-6 col-md-10 py-5 caption-footer-custom">
+        <p class="text-dark mx-5 flex-md-row">
+          <span class="font-weight-bold">
+            ارسال به :
+          </span>
+          تهران، البرز، اصفهان، گیلان، مازندران، خوزستان، کرمان، هرمزگان، سیستان و بلوچستان، زنجان، اراک، آذربایجان غربی
+          و شرقی، اردبیل، خراسان، یزد، قم، قزوین، سمنان، لرستان، همدان، گلستان، چهارمحال و بختیاری، کهکیلویه و بویر احمد
+          و
+          <span class="font-weight-bold">
+            سرتاسر ایران
+          </span>
+        </p>
+        <img src="css/img/logo/samandehi.png" class="py-md-5 footer-img-custom" alt="">
+        <a href="http://127.0.0.1:5500/index.html">
+          <img src="css/img/logo/Layer 1.png" width="95px" class="py-md-5 footer-img-custom" alt="">
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-6 pr-5 news-custom">
+        <p>ثبت نام برای خبرنامه</p><br><br>
+        <input class="form-control" type="email" required placeholder="ایمیل خود را وارد کنید ...">
+        <button class="btn btn-primary btn-sm mt-3">
+          ثبت نام
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+  <div class="container-fluid bg-light copyright-custom">
+    <p class="text-center ">
+      تمام حقوق مادی و معنوی این سایت متعلق به شاپرک می باشد. &copy;
+    </p>
+  </div>
+  <!-- carousel js -->
+  <script>
+    $(document).ready()
+    {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        items: 4,
+        rtl: true,
+        margin: 25,
+        lazyLoad: true,
+        nav: true,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          },
+          1040: {
+            items: 4
+          }
+        }
+      });
+    }
+  </script>
+  <!-- dropdown slow js -->
+  <script>
+    // Add slideDown animation to Bootstrap dropdown when expanding.
+    $('.dropdown').on('show.bs.dropdown', function () {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+
+    // Add slideUp animation to Bootstrap dropdown when collapsing.
+    $('.dropdown').on('hide.bs.dropdown', function () {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
+  </script>
+  <!-- pre loader -->
+  <script>
+    let loader = document.getElementById('pre-loader');
+    window.addEventListener('load', function () {
+      loader.style.display = 'none';
+    })
+  </script>
+</body>
+
+</html>
